@@ -10,14 +10,14 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/qor/admin"
-	"github.com/qor/i18n"
-	"github.com/qor/i18n/backends/database"
-	"github.com/qor/i18n/exchange_actions"
+	"github.com/asicsdigital/i18n"
+	"github.com/asicsdigital/i18n/backends/database"
+	"github.com/asicsdigital/i18n/exchange_actions"
 	"github.com/qor/media"
 	"github.com/qor/media/oss"
 	"github.com/qor/qor"
 	"github.com/qor/qor/test/utils"
-	"github.com/qor/worker"
+	"github.com/asicsdigital/worker"
 )
 
 var db *gorm.DB
