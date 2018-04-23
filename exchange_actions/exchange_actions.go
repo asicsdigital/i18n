@@ -12,7 +12,7 @@ import (
 
 	"github.com/qor/admin"
 	"github.com/asicsdigital/i18n"
-	"github.com/qor/media/oss"
+	"github.com/qor/media_library"
 	"github.com/asicsdigital/worker"
 )
 
@@ -21,7 +21,7 @@ type ExportTranslationArgument struct {
 }
 
 type ImportTranslationArgument struct {
-	TranslationsFile oss.OSS
+	TranslationsFile media_library.FileSystem
 }
 
 // RegisterExchangeJobs register i18n jobs into worker
